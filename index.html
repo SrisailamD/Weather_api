@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APPLICATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/cloudy.png" type="image/x-icon">
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main id="main_container">
+        <section id="card_container">
+             <form autocomplete="off" >
+                  <input type="text" id="location" placeholder="Enter your location">
+                  <input type="submit" value="Get Weather">
+             </form>
+             <article id="img_container">
+                    <img src="./images/weather_favicon_files/4571485.png" alt="" id="img" >
+                    <h2 id="weather_condition">NONE</h2>
+             </article>
+             <article id="temp_humid">
+                   <aside id="temp">
+                       <h1 id="header">TEMPERATURE</h1>
+                       <P class="para temp_value">0<sup>0</sup>C</P>
+                   </aside>
+                   <aside id="humid">
+                       <h1 id="headers">HUMIDITY</h1>
+                       <p class="para humid_value">KMPH</p>
+
+                    </aside>
+             </article>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
